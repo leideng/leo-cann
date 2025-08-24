@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/root/autodl-tmp/leo-cann/hello-world/build/CMakeFiles/kernels_host"
+		},
+		{
+			"file" : "/root/autodl-tmp/leo-cann/hello-world/build/CMakeFiles/kernels_host.rule"
+		},
+		{
+			"file" : "/root/autodl-tmp/leo-cann/hello-world/build/CMakeFiles/kernels_host-complete.rule"
+		},
+		{
+			"file" : "/root/autodl-tmp/leo-cann/hello-world/build/kernels_host-prefix/src/kernels_host-stamp/kernels_host-build.rule"
+		},
+		{
+			"file" : "/root/autodl-tmp/leo-cann/hello-world/build/kernels_host-prefix/src/kernels_host-stamp/kernels_host-configure.rule"
+		},
+		{
+			"file" : "/root/autodl-tmp/leo-cann/hello-world/build/kernels_host-prefix/src/kernels_host-stamp/kernels_host-download.rule"
+		},
+		{
+			"file" : "/root/autodl-tmp/leo-cann/hello-world/build/kernels_host-prefix/src/kernels_host-stamp/kernels_host-install.rule"
+		},
+		{
+			"file" : "/root/autodl-tmp/leo-cann/hello-world/build/kernels_host-prefix/src/kernels_host-stamp/kernels_host-mkdir.rule"
+		},
+		{
+			"file" : "/root/autodl-tmp/leo-cann/hello-world/build/kernels_host-prefix/src/kernels_host-stamp/kernels_host-patch.rule"
+		},
+		{
+			"file" : "/root/autodl-tmp/leo-cann/hello-world/build/kernels_host-prefix/src/kernels_host-stamp/kernels_host-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"kernels_host"
+		],
+		"name" : "kernels_host"
+	}
+}

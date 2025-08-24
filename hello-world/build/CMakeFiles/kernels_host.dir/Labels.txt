@@ -1,0 +1,13 @@
+# Target labels
+ kernels_host
+# Source files and their labels
+/root/autodl-tmp/leo-cann/hello-world/build/CMakeFiles/kernels_host
+/root/autodl-tmp/leo-cann/hello-world/build/CMakeFiles/kernels_host.rule
+/root/autodl-tmp/leo-cann/hello-world/build/CMakeFiles/kernels_host-complete.rule
+/root/autodl-tmp/leo-cann/hello-world/build/kernels_host-prefix/src/kernels_host-stamp/kernels_host-build.rule
+/root/autodl-tmp/leo-cann/hello-world/build/kernels_host-prefix/src/kernels_host-stamp/kernels_host-configure.rule
+/root/autodl-tmp/leo-cann/hello-world/build/kernels_host-prefix/src/kernels_host-stamp/kernels_host-download.rule
+/root/autodl-tmp/leo-cann/hello-world/build/kernels_host-prefix/src/kernels_host-stamp/kernels_host-install.rule
+/root/autodl-tmp/leo-cann/hello-world/build/kernels_host-prefix/src/kernels_host-stamp/kernels_host-mkdir.rule
+/root/autodl-tmp/leo-cann/hello-world/build/kernels_host-prefix/src/kernels_host-stamp/kernels_host-patch.rule
+/root/autodl-tmp/leo-cann/hello-world/build/kernels_host-prefix/src/kernels_host-stamp/kernels_host-update.rule

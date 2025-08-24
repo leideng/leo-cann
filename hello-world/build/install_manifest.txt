@@ -1,0 +1,3 @@
+/root/autodl-tmp/leo-cann/hello-world/out/lib/libkernels.a
+/root/autodl-tmp/leo-cann/hello-world/out/include/kernels/aclrtlaunch_hello_world.h
+/root/autodl-tmp/leo-cann/hello-world/out/include/kernels/aclrtlaunch_triple_chevrons_func.h

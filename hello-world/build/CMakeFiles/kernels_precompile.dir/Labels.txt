@@ -1,0 +1,13 @@
+# Target labels
+ kernels_precompile
+# Source files and their labels
+/root/autodl-tmp/leo-cann/hello-world/build/CMakeFiles/kernels_precompile
+/root/autodl-tmp/leo-cann/hello-world/build/CMakeFiles/kernels_precompile.rule
+/root/autodl-tmp/leo-cann/hello-world/build/CMakeFiles/kernels_precompile-complete.rule
+/root/autodl-tmp/leo-cann/hello-world/build/kernels_precompile-prefix/src/kernels_precompile-stamp/kernels_precompile-build.rule
+/root/autodl-tmp/leo-cann/hello-world/build/kernels_precompile-prefix/src/kernels_precompile-stamp/kernels_precompile-configure.rule
+/root/autodl-tmp/leo-cann/hello-world/build/kernels_precompile-prefix/src/kernels_precompile-stamp/kernels_precompile-download.rule
+/root/autodl-tmp/leo-cann/hello-world/build/kernels_precompile-prefix/src/kernels_precompile-stamp/kernels_precompile-install.rule
+/root/autodl-tmp/leo-cann/hello-world/build/kernels_precompile-prefix/src/kernels_precompile-stamp/kernels_precompile-mkdir.rule
+/root/autodl-tmp/leo-cann/hello-world/build/kernels_precompile-prefix/src/kernels_precompile-stamp/kernels_precompile-patch.rule
+/root/autodl-tmp/leo-cann/hello-world/build/kernels_precompile-prefix/src/kernels_precompile-stamp/kernels_precompile-update.rule

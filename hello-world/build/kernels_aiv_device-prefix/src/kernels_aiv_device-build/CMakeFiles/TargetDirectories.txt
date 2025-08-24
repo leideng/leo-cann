@@ -1,0 +1,4 @@
+/root/autodl-tmp/leo-cann/hello-world/build/kernels_aiv_device-prefix/src/kernels_aiv_device-build/CMakeFiles/device_aiv_obj.dir
+/root/autodl-tmp/leo-cann/hello-world/build/kernels_aiv_device-prefix/src/kernels_aiv_device-build/CMakeFiles/merge_aiv_device_obj.dir
+/root/autodl-tmp/leo-cann/hello-world/build/kernels_aiv_device-prefix/src/kernels_aiv_device-build/CMakeFiles/edit_cache.dir
+/root/autodl-tmp/leo-cann/hello-world/build/kernels_aiv_device-prefix/src/kernels_aiv_device-build/CMakeFiles/rebuild_cache.dir

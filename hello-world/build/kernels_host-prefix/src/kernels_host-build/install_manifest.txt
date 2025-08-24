@@ -1,0 +1,1 @@
+/root/autodl-tmp/leo-cann/hello-world/build/kernels_host_dir/./objects-Debug/host_bisheng_obj/root/autodl-tmp/leo-cann/hello-world/op_kernel/hello_world.cpp.o

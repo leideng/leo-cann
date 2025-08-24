@@ -1,0 +1,8 @@
+/root/autodl-tmp/leo-cann/hello-world/build/kernels_preprocess-prefix/src/kernels_preprocess-build/CMakeFiles/preprocess_obj.dir
+/root/autodl-tmp/leo-cann/hello-world/build/kernels_preprocess-prefix/src/kernels_preprocess-build/CMakeFiles/aiv_obj.dir
+/root/autodl-tmp/leo-cann/hello-world/build/kernels_preprocess-prefix/src/kernels_preprocess-build/CMakeFiles/merge_aiv_obj_text.dir
+/root/autodl-tmp/leo-cann/hello-world/build/kernels_preprocess-prefix/src/kernels_preprocess-build/CMakeFiles/aic_obj.dir
+/root/autodl-tmp/leo-cann/hello-world/build/kernels_preprocess-prefix/src/kernels_preprocess-build/CMakeFiles/merge_aic_obj_text.dir
+/root/autodl-tmp/leo-cann/hello-world/build/kernels_preprocess-prefix/src/kernels_preprocess-build/CMakeFiles/_host_cpp.dir
+/root/autodl-tmp/leo-cann/hello-world/build/kernels_preprocess-prefix/src/kernels_preprocess-build/CMakeFiles/edit_cache.dir
+/root/autodl-tmp/leo-cann/hello-world/build/kernels_preprocess-prefix/src/kernels_preprocess-build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,13 @@
+# Target labels
+ kernels_aiv_device
+# Source files and their labels
+/root/autodl-tmp/leo-cann/hello-world/build/CMakeFiles/kernels_aiv_device
+/root/autodl-tmp/leo-cann/hello-world/build/CMakeFiles/kernels_aiv_device.rule
+/root/autodl-tmp/leo-cann/hello-world/build/CMakeFiles/kernels_aiv_device-complete.rule
+/root/autodl-tmp/leo-cann/hello-world/build/kernels_aiv_device-prefix/src/kernels_aiv_device-stamp/kernels_aiv_device-build.rule
+/root/autodl-tmp/leo-cann/hello-world/build/kernels_aiv_device-prefix/src/kernels_aiv_device-stamp/kernels_aiv_device-configure.rule
+/root/autodl-tmp/leo-cann/hello-world/build/kernels_aiv_device-prefix/src/kernels_aiv_device-stamp/kernels_aiv_device-download.rule
+/root/autodl-tmp/leo-cann/hello-world/build/kernels_aiv_device-prefix/src/kernels_aiv_device-stamp/kernels_aiv_device-install.rule
+/root/autodl-tmp/leo-cann/hello-world/build/kernels_aiv_device-prefix/src/kernels_aiv_device-stamp/kernels_aiv_device-mkdir.rule
+/root/autodl-tmp/leo-cann/hello-world/build/kernels_aiv_device-prefix/src/kernels_aiv_device-stamp/kernels_aiv_device-patch.rule
+/root/autodl-tmp/leo-cann/hello-world/build/kernels_aiv_device-prefix/src/kernels_aiv_device-stamp/kernels_aiv_device-update.rule

@@ -1,0 +1,527 @@
+hello-world
+|-- CMakeLists.txt
+|-- build
+|   |-- CMakeCache.txt
+|   |-- CMakeFiles
+|   |   |-- 3.22.1
+|   |   |   |-- CMakeCCompiler.cmake
+|   |   |   |-- CMakeCXXCompiler.cmake
+|   |   |   |-- CMakeDetermineCompilerABI_C.bin
+|   |   |   |-- CMakeDetermineCompilerABI_CXX.bin
+|   |   |   |-- CMakeSystem.cmake
+|   |   |   |-- CompilerIdC
+|   |   |   |   |-- CMakeCCompilerId.c
+|   |   |   |   |-- a.out
+|   |   |   |   `-- tmp
+|   |   |   `-- CompilerIdCXX
+|   |   |       |-- CMakeCXXCompilerId.cpp
+|   |   |       |-- a.out
+|   |   |       `-- tmp
+|   |   |-- CMakeDirectoryInformation.cmake
+|   |   |-- CMakeOutput.log
+|   |   |-- CMakeRuleHashes.txt
+|   |   |-- CMakeTmp
+|   |   |-- Makefile.cmake
+|   |   |-- Makefile2
+|   |   |-- TargetDirectories.txt
+|   |   |-- cmake.check_cache
+|   |   |-- kernels.dir
+|   |   |   |-- DependInfo.cmake
+|   |   |   |-- build.make
+|   |   |   |-- cmake_clean.cmake
+|   |   |   |-- cmake_clean_target.cmake
+|   |   |   |-- compiler_depend.make
+|   |   |   |-- compiler_depend.ts
+|   |   |   |-- depend.make
+|   |   |   |-- flags.make
+|   |   |   |-- link.txt
+|   |   |   `-- progress.make
+|   |   |-- kernels_aic_device-complete
+|   |   |-- kernels_aic_device.dir
+|   |   |   |-- DependInfo.cmake
+|   |   |   |-- Labels.json
+|   |   |   |-- Labels.txt
+|   |   |   |-- build.make
+|   |   |   |-- cmake_clean.cmake
+|   |   |   |-- compiler_depend.make
+|   |   |   |-- compiler_depend.ts
+|   |   |   `-- progress.make
+|   |   |-- kernels_aiv_device-complete
+|   |   |-- kernels_aiv_device.dir
+|   |   |   |-- DependInfo.cmake
+|   |   |   |-- Labels.json
+|   |   |   |-- Labels.txt
+|   |   |   |-- build.make
+|   |   |   |-- cmake_clean.cmake
+|   |   |   |-- compiler_depend.make
+|   |   |   |-- compiler_depend.ts
+|   |   |   `-- progress.make
+|   |   |-- kernels_host-complete
+|   |   |-- kernels_host.dir
+|   |   |   |-- DependInfo.cmake
+|   |   |   |-- Labels.json
+|   |   |   |-- Labels.txt
+|   |   |   |-- build.make
+|   |   |   |-- cmake_clean.cmake
+|   |   |   |-- compiler_depend.make
+|   |   |   |-- compiler_depend.ts
+|   |   |   `-- progress.make
+|   |   |-- kernels_host_stub_obj.dir
+|   |   |   |-- DependInfo.cmake
+|   |   |   |-- auto_gen
+|   |   |   |   `-- kernels
+|   |   |   |       |-- host_stub.cpp.o
+|   |   |   |       `-- host_stub.cpp.o.d
+|   |   |   |-- build.make
+|   |   |   |-- cmake_clean.cmake
+|   |   |   |-- compiler_depend.make
+|   |   |   |-- compiler_depend.ts
+|   |   |   |-- depend.make
+|   |   |   |-- flags.make
+|   |   |   `-- progress.make
+|   |   |-- kernels_interface.dir
+|   |   |   |-- DependInfo.cmake
+|   |   |   |-- build.make
+|   |   |   |-- cmake_clean.cmake
+|   |   |   |-- cmake_clean_target.cmake
+|   |   |   |-- compiler_depend.make
+|   |   |   |-- compiler_depend.ts
+|   |   |   |-- depend.make
+|   |   |   |-- flags.make
+|   |   |   |-- link.txt
+|   |   |   `-- progress.make
+|   |   |-- kernels_merge_obj.dir
+|   |   |   |-- DependInfo.cmake
+|   |   |   |-- build.make
+|   |   |   |-- cmake_clean.cmake
+|   |   |   |-- compiler_depend.make
+|   |   |   |-- compiler_depend.ts
+|   |   |   `-- progress.make
+|   |   |-- kernels_precompile-complete
+|   |   |-- kernels_precompile.dir
+|   |   |   |-- DependInfo.cmake
+|   |   |   |-- Labels.json
+|   |   |   |-- Labels.txt
+|   |   |   |-- build.make
+|   |   |   |-- cmake_clean.cmake
+|   |   |   |-- compiler_depend.make
+|   |   |   |-- compiler_depend.ts
+|   |   |   `-- progress.make
+|   |   |-- kernels_preprocess-complete
+|   |   |-- kernels_preprocess.dir
+|   |   |   |-- DependInfo.cmake
+|   |   |   |-- Labels.json
+|   |   |   |-- Labels.txt
+|   |   |   |-- build.make
+|   |   |   |-- cmake_clean.cmake
+|   |   |   |-- compiler_depend.make
+|   |   |   |-- compiler_depend.ts
+|   |   |   `-- progress.make
+|   |   |-- main.dir
+|   |   |   |-- DependInfo.cmake
+|   |   |   |-- build.make
+|   |   |   |-- cmake_clean.cmake
+|   |   |   |-- compiler_depend.make
+|   |   |   |-- compiler_depend.ts
+|   |   |   |-- depend.make
+|   |   |   |-- flags.make
+|   |   |   |-- link.txt
+|   |   |   |-- op_host
+|   |   |   |   |-- main.cpp.o
+|   |   |   |   `-- main.cpp.o.d
+|   |   |   `-- progress.make
+|   |   `-- progress.marks
+|   |-- Makefile
+|   |-- ascendc_runtime.cmake
+|   |-- ascendc_runtime.cpp.o
+|   |-- auto_gen
+|   |   `-- kernels
+|   |       |-- aic_config.cmake
+|   |       |-- aiv_config.cmake
+|   |       |-- auto_gen_hello_world.cpp
+|   |       |-- host_config.cmake
+|   |       |-- host_stub.cpp
+|   |       `-- template_config.cmake
+|   |-- cmake_install.cmake
+|   |-- elf_tool.c.o
+|   |-- include
+|   |   `-- kernels
+|   |       |-- aclrtlaunch_hello_world.h
+|   |       `-- aclrtlaunch_triple_chevrons_func.h
+|   |-- install_manifest.txt
+|   |-- kernels_aic_device-prefix
+|   |   |-- src
+|   |   |   |-- kernels_aic_device-build
+|   |   |   |   |-- CMakeCache.txt
+|   |   |   |   |-- CMakeFiles
+|   |   |   |   |   |-- 3.22.1
+|   |   |   |   |   |   |-- CMakeCCompiler.cmake
+|   |   |   |   |   |   |-- CMakeCXXCompiler.cmake
+|   |   |   |   |   |   |-- CMakeDetermineCompilerABI_C.bin
+|   |   |   |   |   |   |-- CMakeDetermineCompilerABI_CXX.bin
+|   |   |   |   |   |   |-- CMakeSystem.cmake
+|   |   |   |   |   |   |-- CompilerIdC
+|   |   |   |   |   |   |   |-- CMakeCCompilerId.c
+|   |   |   |   |   |   |   |-- a.out
+|   |   |   |   |   |   |   `-- tmp
+|   |   |   |   |   |   `-- CompilerIdCXX
+|   |   |   |   |   |       |-- CMakeCXXCompilerId.cpp
+|   |   |   |   |   |       |-- a.out
+|   |   |   |   |   |       `-- tmp
+|   |   |   |   |   |-- CMakeDirectoryInformation.cmake
+|   |   |   |   |   |-- CMakeOutput.log
+|   |   |   |   |   |-- CMakeTmp
+|   |   |   |   |   |-- Makefile.cmake
+|   |   |   |   |   |-- Makefile2
+|   |   |   |   |   |-- TargetDirectories.txt
+|   |   |   |   |   |-- cmake.check_cache
+|   |   |   |   |   `-- progress.marks
+|   |   |   |   |-- Makefile
+|   |   |   |   `-- cmake_install.cmake
+|   |   |   `-- kernels_aic_device-stamp
+|   |   |       |-- kernels_aic_device-configure
+|   |   |       |-- kernels_aic_device-done
+|   |   |       |-- kernels_aic_device-download
+|   |   |       |-- kernels_aic_device-install
+|   |   |       |-- kernels_aic_device-mkdir
+|   |   |       |-- kernels_aic_device-patch
+|   |   |       `-- kernels_aic_device-update
+|   |   `-- tmp
+|   |       |-- kernels_aic_device-cfgcmd.txt
+|   |       `-- kernels_aic_device-cfgcmd.txt.in
+|   |-- kernels_aic_device_dir
+|   |-- kernels_aiv_device-prefix
+|   |   |-- src
+|   |   |   |-- kernels_aiv_device-build
+|   |   |   |   |-- CMakeCache.txt
+|   |   |   |   |-- CMakeFiles
+|   |   |   |   |   |-- 3.22.1
+|   |   |   |   |   |   |-- CMakeCCompiler.cmake
+|   |   |   |   |   |   |-- CMakeCXXCompiler.cmake
+|   |   |   |   |   |   |-- CMakeDetermineCompilerABI_C.bin
+|   |   |   |   |   |   |-- CMakeDetermineCompilerABI_CXX.bin
+|   |   |   |   |   |   |-- CMakeSystem.cmake
+|   |   |   |   |   |   |-- CompilerIdC
+|   |   |   |   |   |   |   |-- CMakeCCompilerId.c
+|   |   |   |   |   |   |   |-- a.out
+|   |   |   |   |   |   |   `-- tmp
+|   |   |   |   |   |   `-- CompilerIdCXX
+|   |   |   |   |   |       |-- CMakeCXXCompilerId.cpp
+|   |   |   |   |   |       |-- a.out
+|   |   |   |   |   |       `-- tmp
+|   |   |   |   |   |-- CMakeDirectoryInformation.cmake
+|   |   |   |   |   |-- CMakeOutput.log
+|   |   |   |   |   |-- CMakeRuleHashes.txt
+|   |   |   |   |   |-- CMakeTmp
+|   |   |   |   |   |-- Makefile.cmake
+|   |   |   |   |   |-- Makefile2
+|   |   |   |   |   |-- TargetDirectories.txt
+|   |   |   |   |   |-- cmake.check_cache
+|   |   |   |   |   |-- device_aiv_obj.dir
+|   |   |   |   |   |   |-- DependInfo.cmake
+|   |   |   |   |   |   |-- build.make
+|   |   |   |   |   |   |-- cmake_clean.cmake
+|   |   |   |   |   |   |-- compiler_depend.make
+|   |   |   |   |   |   |-- compiler_depend.ts
+|   |   |   |   |   |   |-- depend.make
+|   |   |   |   |   |   |-- flags.make
+|   |   |   |   |   |   |-- progress.make
+|   |   |   |   |   |   `-- root
+|   |   |   |   |   |       `-- autodl-tmp
+|   |   |   |   |   |           `-- leo-cann
+|   |   |   |   |   |               `-- hello-world
+|   |   |   |   |   |                   `-- build
+|   |   |   |   |   |                       `-- auto_gen
+|   |   |   |   |   |                           `-- kernels
+|   |   |   |   |   |                               |-- auto_gen_hello_world.cpp.o
+|   |   |   |   |   |                               `-- auto_gen_hello_world.cpp.o.d
+|   |   |   |   |   |-- merge_aiv_device_obj.dir
+|   |   |   |   |   |   |-- DependInfo.cmake
+|   |   |   |   |   |   |-- build.make
+|   |   |   |   |   |   |-- cmake_clean.cmake
+|   |   |   |   |   |   |-- compiler_depend.make
+|   |   |   |   |   |   |-- compiler_depend.ts
+|   |   |   |   |   |   `-- progress.make
+|   |   |   |   |   `-- progress.marks
+|   |   |   |   |-- Makefile
+|   |   |   |   |-- cmake_install.cmake
+|   |   |   |   `-- compile_commands.json
+|   |   |   `-- kernels_aiv_device-stamp
+|   |   |       |-- kernels_aiv_device-configure
+|   |   |       |-- kernels_aiv_device-done
+|   |   |       |-- kernels_aiv_device-download
+|   |   |       |-- kernels_aiv_device-install
+|   |   |       |-- kernels_aiv_device-mkdir
+|   |   |       |-- kernels_aiv_device-patch
+|   |   |       `-- kernels_aiv_device-update
+|   |   `-- tmp
+|   |       |-- kernels_aiv_device-cfgcmd.txt
+|   |       `-- kernels_aiv_device-cfgcmd.txt.in
+|   |-- kernels_aiv_device_dir
+|   |   |-- aiv_build.flag
+|   |   `-- device_aiv.o
+|   |-- kernels_host-prefix
+|   |   |-- src
+|   |   |   |-- kernels_host-build
+|   |   |   |   |-- CMakeCache.txt
+|   |   |   |   |-- CMakeFiles
+|   |   |   |   |   |-- 3.22.1
+|   |   |   |   |   |   |-- CMakeCCompiler.cmake
+|   |   |   |   |   |   |-- CMakeCXXCompiler.cmake
+|   |   |   |   |   |   |-- CMakeDetermineCompilerABI_C.bin
+|   |   |   |   |   |   |-- CMakeDetermineCompilerABI_CXX.bin
+|   |   |   |   |   |   |-- CMakeSystem.cmake
+|   |   |   |   |   |   |-- CompilerIdC
+|   |   |   |   |   |   |   |-- CMakeCCompilerId.c
+|   |   |   |   |   |   |   |-- a.out
+|   |   |   |   |   |   |   `-- tmp
+|   |   |   |   |   |   `-- CompilerIdCXX
+|   |   |   |   |   |       |-- CMakeCXXCompilerId.cpp
+|   |   |   |   |   |       |-- a.out
+|   |   |   |   |   |       `-- tmp
+|   |   |   |   |   |-- CMakeDirectoryInformation.cmake
+|   |   |   |   |   |-- CMakeOutput.log
+|   |   |   |   |   |-- CMakeTmp
+|   |   |   |   |   |-- Makefile.cmake
+|   |   |   |   |   |-- Makefile2
+|   |   |   |   |   |-- TargetDirectories.txt
+|   |   |   |   |   |-- cmake.check_cache
+|   |   |   |   |   |-- host_bisheng_obj.dir
+|   |   |   |   |   |   |-- DependInfo.cmake
+|   |   |   |   |   |   |-- build.make
+|   |   |   |   |   |   |-- cmake_clean.cmake
+|   |   |   |   |   |   |-- compiler_depend.internal
+|   |   |   |   |   |   |-- compiler_depend.make
+|   |   |   |   |   |   |-- compiler_depend.ts
+|   |   |   |   |   |   |-- depend.make
+|   |   |   |   |   |   |-- flags.make
+|   |   |   |   |   |   |-- progress.make
+|   |   |   |   |   |   `-- root
+|   |   |   |   |   |       `-- autodl-tmp
+|   |   |   |   |   |           `-- leo-cann
+|   |   |   |   |   |               `-- hello-world
+|   |   |   |   |   |                   `-- op_kernel
+|   |   |   |   |   |                       |-- hello_world.cpp.o
+|   |   |   |   |   |                       `-- hello_world.cpp.o.d
+|   |   |   |   |   `-- progress.marks
+|   |   |   |   |-- Makefile
+|   |   |   |   |-- cmake_install.cmake
+|   |   |   |   |-- compile_commands.json
+|   |   |   |   `-- install_manifest.txt
+|   |   |   `-- kernels_host-stamp
+|   |   |       |-- kernels_host-configure
+|   |   |       |-- kernels_host-done
+|   |   |       |-- kernels_host-download
+|   |   |       |-- kernels_host-install
+|   |   |       |-- kernels_host-mkdir
+|   |   |       |-- kernels_host-patch
+|   |   |       `-- kernels_host-update
+|   |   `-- tmp
+|   |       |-- kernels_host-cfgcmd.txt
+|   |       `-- kernels_host-cfgcmd.txt.in
+|   |-- kernels_host_dir
+|   |   `-- objects-Debug
+|   |       `-- host_bisheng_obj
+|   |           `-- root
+|   |               `-- autodl-tmp
+|   |                   `-- leo-cann
+|   |                       `-- hello-world
+|   |                           `-- op_kernel
+|   |                               `-- hello_world.cpp.o
+|   |-- kernels_merge_obj_dir
+|   |   |-- aiv_build.flag
+|   |   `-- device_aiv.o
+|   |-- kernels_precompile-prefix
+|   |   |-- src
+|   |   |   |-- kernels_precompile-build
+|   |   |   |   |-- CMakeCache.txt
+|   |   |   |   |-- CMakeFiles
+|   |   |   |   |   |-- 3.22.1
+|   |   |   |   |   |   |-- CMakeCCompiler.cmake
+|   |   |   |   |   |   |-- CMakeCXXCompiler.cmake
+|   |   |   |   |   |   |-- CMakeDetermineCompilerABI_C.bin
+|   |   |   |   |   |   |-- CMakeDetermineCompilerABI_CXX.bin
+|   |   |   |   |   |   |-- CMakeSystem.cmake
+|   |   |   |   |   |   |-- CompilerIdC
+|   |   |   |   |   |   |   |-- CMakeCCompilerId.c
+|   |   |   |   |   |   |   |-- a.out
+|   |   |   |   |   |   |   `-- tmp
+|   |   |   |   |   |   `-- CompilerIdCXX
+|   |   |   |   |   |       |-- CMakeCXXCompilerId.cpp
+|   |   |   |   |   |       |-- a.out
+|   |   |   |   |   |       `-- tmp
+|   |   |   |   |   |-- CMakeDirectoryInformation.cmake
+|   |   |   |   |   |-- CMakeOutput.log
+|   |   |   |   |   |-- CMakeRuleHashes.txt
+|   |   |   |   |   |-- CMakeTmp
+|   |   |   |   |   |-- Makefile.cmake
+|   |   |   |   |   |-- Makefile2
+|   |   |   |   |   |-- TargetDirectories.txt
+|   |   |   |   |   |-- check_src_template.dir
+|   |   |   |   |   |   |-- DependInfo.cmake
+|   |   |   |   |   |   |-- build.make
+|   |   |   |   |   |   |-- cmake_clean.cmake
+|   |   |   |   |   |   |-- compiler_depend.make
+|   |   |   |   |   |   |-- compiler_depend.ts
+|   |   |   |   |   |   `-- progress.make
+|   |   |   |   |   |-- cmake.check_cache
+|   |   |   |   |   |-- precompile_obj.dir
+|   |   |   |   |   |   |-- DependInfo.cmake
+|   |   |   |   |   |   |-- build.make
+|   |   |   |   |   |   |-- cmake_clean.cmake
+|   |   |   |   |   |   |-- compiler_depend.make
+|   |   |   |   |   |   |-- compiler_depend.ts
+|   |   |   |   |   |   |-- depend.make
+|   |   |   |   |   |   |-- flags.make
+|   |   |   |   |   |   |-- progress.make
+|   |   |   |   |   |   `-- root
+|   |   |   |   |   |       `-- autodl-tmp
+|   |   |   |   |   |           `-- leo-cann
+|   |   |   |   |   |               `-- hello-world
+|   |   |   |   |   |                   `-- op_kernel
+|   |   |   |   |   |                       |-- hello_world.cpp.o
+|   |   |   |   |   |                       `-- hello_world.cpp.o.d
+|   |   |   |   |   `-- progress.marks
+|   |   |   |   |-- Makefile
+|   |   |   |   |-- cmake_install.cmake
+|   |   |   |   `-- compile_commands.json
+|   |   |   `-- kernels_precompile-stamp
+|   |   |       |-- kernels_precompile-configure
+|   |   |       |-- kernels_precompile-done
+|   |   |       |-- kernels_precompile-download
+|   |   |       |-- kernels_precompile-install
+|   |   |       |-- kernels_precompile-mkdir
+|   |   |       |-- kernels_precompile-patch
+|   |   |       `-- kernels_precompile-update
+|   |   `-- tmp
+|   |       |-- kernels_precompile-cfgcmd.txt
+|   |       `-- kernels_precompile-cfgcmd.txt.in
+|   |-- kernels_preprocess-prefix
+|   |   |-- src
+|   |   |   |-- kernels_preprocess-build
+|   |   |   |   |-- CMakeCache.txt
+|   |   |   |   |-- CMakeFiles
+|   |   |   |   |   |-- 3.22.1
+|   |   |   |   |   |   |-- CMakeCCompiler.cmake
+|   |   |   |   |   |   |-- CMakeCXXCompiler.cmake
+|   |   |   |   |   |   |-- CMakeDetermineCompilerABI_C.bin
+|   |   |   |   |   |   |-- CMakeDetermineCompilerABI_CXX.bin
+|   |   |   |   |   |   |-- CMakeSystem.cmake
+|   |   |   |   |   |   |-- CompilerIdC
+|   |   |   |   |   |   |   |-- CMakeCCompilerId.c
+|   |   |   |   |   |   |   |-- a.out
+|   |   |   |   |   |   |   `-- tmp
+|   |   |   |   |   |   `-- CompilerIdCXX
+|   |   |   |   |   |       |-- CMakeCXXCompilerId.cpp
+|   |   |   |   |   |       |-- a.out
+|   |   |   |   |   |       `-- tmp
+|   |   |   |   |   |-- CMakeDirectoryInformation.cmake
+|   |   |   |   |   |-- CMakeOutput.log
+|   |   |   |   |   |-- CMakeRuleHashes.txt
+|   |   |   |   |   |-- CMakeTmp
+|   |   |   |   |   |-- Makefile.cmake
+|   |   |   |   |   |-- Makefile2
+|   |   |   |   |   |-- TargetDirectories.txt
+|   |   |   |   |   |-- _host_cpp.dir
+|   |   |   |   |   |   |-- DependInfo.cmake
+|   |   |   |   |   |   |-- build.make
+|   |   |   |   |   |   |-- cmake_clean.cmake
+|   |   |   |   |   |   |-- compiler_depend.make
+|   |   |   |   |   |   |-- compiler_depend.ts
+|   |   |   |   |   |   `-- progress.make
+|   |   |   |   |   |-- aic_obj.dir
+|   |   |   |   |   |   |-- DependInfo.cmake
+|   |   |   |   |   |   |-- build.make
+|   |   |   |   |   |   |-- cmake_clean.cmake
+|   |   |   |   |   |   |-- compiler_depend.make
+|   |   |   |   |   |   |-- compiler_depend.ts
+|   |   |   |   |   |   |-- depend.make
+|   |   |   |   |   |   |-- flags.make
+|   |   |   |   |   |   |-- progress.make
+|   |   |   |   |   |   `-- root
+|   |   |   |   |   |       `-- autodl-tmp
+|   |   |   |   |   |           `-- leo-cann
+|   |   |   |   |   |               `-- hello-world
+|   |   |   |   |   |                   `-- op_kernel
+|   |   |   |   |   |                       |-- hello_world.cpp.o
+|   |   |   |   |   |                       `-- hello_world.cpp.o.d
+|   |   |   |   |   |-- aiv_obj.dir
+|   |   |   |   |   |   |-- DependInfo.cmake
+|   |   |   |   |   |   |-- build.make
+|   |   |   |   |   |   |-- cmake_clean.cmake
+|   |   |   |   |   |   |-- compiler_depend.make
+|   |   |   |   |   |   |-- compiler_depend.ts
+|   |   |   |   |   |   |-- depend.make
+|   |   |   |   |   |   |-- flags.make
+|   |   |   |   |   |   |-- progress.make
+|   |   |   |   |   |   `-- root
+|   |   |   |   |   |       `-- autodl-tmp
+|   |   |   |   |   |           `-- leo-cann
+|   |   |   |   |   |               `-- hello-world
+|   |   |   |   |   |                   `-- op_kernel
+|   |   |   |   |   |                       |-- hello_world.cpp.o
+|   |   |   |   |   |                       `-- hello_world.cpp.o.d
+|   |   |   |   |   |-- cmake.check_cache
+|   |   |   |   |   |-- merge_aic_obj_text.dir
+|   |   |   |   |   |   |-- DependInfo.cmake
+|   |   |   |   |   |   |-- build.make
+|   |   |   |   |   |   |-- cmake_clean.cmake
+|   |   |   |   |   |   |-- compiler_depend.make
+|   |   |   |   |   |   |-- compiler_depend.ts
+|   |   |   |   |   |   `-- progress.make
+|   |   |   |   |   |-- merge_aiv_obj_text.dir
+|   |   |   |   |   |   |-- DependInfo.cmake
+|   |   |   |   |   |   |-- build.make
+|   |   |   |   |   |   |-- cmake_clean.cmake
+|   |   |   |   |   |   |-- compiler_depend.make
+|   |   |   |   |   |   |-- compiler_depend.ts
+|   |   |   |   |   |   `-- progress.make
+|   |   |   |   |   |-- preprocess_obj.dir
+|   |   |   |   |   |   |-- DependInfo.cmake
+|   |   |   |   |   |   |-- build.make
+|   |   |   |   |   |   |-- cmake_clean.cmake
+|   |   |   |   |   |   |-- compiler_depend.make
+|   |   |   |   |   |   |-- compiler_depend.ts
+|   |   |   |   |   |   |-- depend.make
+|   |   |   |   |   |   |-- flags.make
+|   |   |   |   |   |   |-- progress.make
+|   |   |   |   |   |   `-- root
+|   |   |   |   |   |       `-- autodl-tmp
+|   |   |   |   |   |           `-- leo-cann
+|   |   |   |   |   |               `-- hello-world
+|   |   |   |   |   |                   `-- op_kernel
+|   |   |   |   |   |                       |-- hello_world.cpp.o
+|   |   |   |   |   |                       `-- hello_world.cpp.o.d
+|   |   |   |   |   `-- progress.marks
+|   |   |   |   |-- Makefile
+|   |   |   |   |-- cmake_install.cmake
+|   |   |   |   `-- compile_commands.json
+|   |   |   `-- kernels_preprocess-stamp
+|   |   |       |-- kernels_preprocess-configure
+|   |   |       |-- kernels_preprocess-done
+|   |   |       |-- kernels_preprocess-download
+|   |   |       |-- kernels_preprocess-install
+|   |   |       |-- kernels_preprocess-mkdir
+|   |   |       |-- kernels_preprocess-patch
+|   |   |       `-- kernels_preprocess-update
+|   |   `-- tmp
+|   |       |-- kernels_preprocess-cfgcmd.txt
+|   |       `-- kernels_preprocess-cfgcmd.txt.in
+|   |-- lib
+|   |   `-- libkernels.a
+|   `-- main
+|-- op_host
+|   `-- main.cpp
+|-- op_kernel
+|   `-- hello_world.cpp
+|-- out
+|   |-- include
+|   |   `-- kernels
+|   |       |-- aclrtlaunch_hello_world.h
+|   |       `-- aclrtlaunch_triple_chevrons_func.h
+|   `-- lib
+|       `-- libkernels.a
+|-- output_msg.txt
+`-- run.sh
+
+146 directories, 378 files

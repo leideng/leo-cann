@@ -1,0 +1,16 @@
+/root/autodl-tmp/leo-cann/hello-world/build/CMakeFiles/kernels_interface.dir
+/root/autodl-tmp/leo-cann/hello-world/build/CMakeFiles/kernels_precompile.dir
+/root/autodl-tmp/leo-cann/hello-world/build/CMakeFiles/kernels_preprocess.dir
+/root/autodl-tmp/leo-cann/hello-world/build/CMakeFiles/kernels_aic_device.dir
+/root/autodl-tmp/leo-cann/hello-world/build/CMakeFiles/kernels_aiv_device.dir
+/root/autodl-tmp/leo-cann/hello-world/build/CMakeFiles/kernels_merge_obj.dir
+/root/autodl-tmp/leo-cann/hello-world/build/CMakeFiles/kernels_host.dir
+/root/autodl-tmp/leo-cann/hello-world/build/CMakeFiles/kernels_host_stub_obj.dir
+/root/autodl-tmp/leo-cann/hello-world/build/CMakeFiles/kernels.dir
+/root/autodl-tmp/leo-cann/hello-world/build/CMakeFiles/main.dir
+/root/autodl-tmp/leo-cann/hello-world/build/CMakeFiles/edit_cache.dir
+/root/autodl-tmp/leo-cann/hello-world/build/CMakeFiles/rebuild_cache.dir
+/root/autodl-tmp/leo-cann/hello-world/build/CMakeFiles/list_install_components.dir
+/root/autodl-tmp/leo-cann/hello-world/build/CMakeFiles/install.dir
+/root/autodl-tmp/leo-cann/hello-world/build/CMakeFiles/install/local.dir
+/root/autodl-tmp/leo-cann/hello-world/build/CMakeFiles/install/strip.dir
